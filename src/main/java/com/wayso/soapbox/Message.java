@@ -2,14 +2,14 @@ package com.wayso.soapbox;
 
 public class Message {
 
-    private Persister persister;
+    private String title;
 
-    public Message(Persister persister) {
-        this.persister = persister;
+    public Message(String title) {
+        this.title = title;
     }
 
-    public void publish() {
-        this.persister.save();
+    public String getTitle() {
+        return title;
     }
 
 }

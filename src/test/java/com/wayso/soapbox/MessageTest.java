@@ -2,17 +2,14 @@ package com.wayso.soapbox;
 
 import org.junit.Test;
 
-import static org.mockito.Mockito.*;
+import static org.junit.Assert.assertEquals;
 
 public class MessageTest {
 
     @Test
-    public void usesPersisterToPublish() {
-        Persister persister = mock(Persister.class);
-        Message message = new Message(persister);
-        message.publish();
-
-        verify(persister, times(1)).save();
+    public void hasTitle() {
+        Message message = new Message("Some title");
+        assertEquals("Some title", message.getTitle());
     }
 
 }
