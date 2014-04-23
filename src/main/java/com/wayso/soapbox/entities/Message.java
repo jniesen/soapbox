@@ -1,4 +1,4 @@
-package com.wayso.soapbox;
+package com.wayso.soapbox.entities;
 
 public class Message {
 

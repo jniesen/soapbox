@@ -1,7 +1,7 @@
 package com.wayso.soapbox.interactors;
 
-import com.wayso.soapbox.Message;
-import com.wayso.soapbox.MessageRepository;
+import com.wayso.soapbox.entities.Message;
+import com.wayso.soapbox.entities.MessageRepository;
 
 public class PublishMessage {
     public Message msg;

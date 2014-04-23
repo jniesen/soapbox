@@ -1,7 +1,7 @@
 package com.wayso.soapbox.interactors;
 
-import com.wayso.soapbox.Message;
-import com.wayso.soapbox.MessageRepository;
+import com.wayso.soapbox.entities.Message;
+import com.wayso.soapbox.entities.MessageRepository;
 import org.junit.Test;
 
 import static org.mockito.Mockito.mock;

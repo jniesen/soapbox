@@ -1,5 +1,6 @@
-package com.wayso.soapbox;
+package com.wayso.soapbox.entities;
 
+import com.wayso.soapbox.entities.Message;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
