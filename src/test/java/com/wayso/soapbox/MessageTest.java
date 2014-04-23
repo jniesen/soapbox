@@ -7,9 +7,11 @@ import static org.junit.Assert.assertEquals;
 public class MessageTest {
 
     @Test
-    public void hasTitle() {
-        Message message = new Message("Some title");
-        assertEquals("Some title", message.getTitle());
+    public void hasTitleAndAuthorContent() {
+        Message message = new Message("Some Title", "Some Author", "Some message content.");
+        assertEquals("Some Title", message.getTitle());
+        assertEquals("Some Author", message.getAuthor());
+        assertEquals("Some message content.", message.getBody());
     }
 
 }
